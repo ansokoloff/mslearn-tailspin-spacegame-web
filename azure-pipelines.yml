@@ -1,9 +1,9 @@
 trigger:
 - '*'
 
-pool: default
-  # demands:
-  # - npm
+pool:
+  demands:
+  - npm
 
 variables:
   buildConfiguration: 'Release'
