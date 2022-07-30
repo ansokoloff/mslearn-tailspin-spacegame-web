@@ -6,11 +6,7 @@
 trigger:
 - '*'
 
-pool:
-  vmImage: 'ubuntu-20.04'
-  demands:
-  - npm
-# pool: default
+pool: default
 #  vmImage: ubuntu-latest
 
 variables:
